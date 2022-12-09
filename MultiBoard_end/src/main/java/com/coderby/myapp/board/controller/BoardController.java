@@ -32,6 +32,8 @@ import com.coderby.myapp.board.service.IBoardService;
 @Controller
 public class BoardController {
 	static final Logger logger = Logger.getLogger(BoardController.class);
+	
+	
 
 	@Autowired
 	IBoardService boardService;
